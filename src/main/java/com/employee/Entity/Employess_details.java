@@ -8,6 +8,7 @@ public class Employess_details {
 	private int empSal;
 	private String empAddress;
 	private int empNumber;
+	private String empEmail;
 	
 	
 
