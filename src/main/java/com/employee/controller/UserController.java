@@ -51,9 +51,16 @@ public class UserController {
 	public ResponseEntity<List<UserDetails>> viewAlluser() {
 		return ResponseEntity.ok(userService.viewAlluser());
 	}
+	
+	@GetMapping("/viewAllUserCity/{userCity}")
+	public ResponseEntity<List<?>> viewAllUserCity(@PathVariable  String userCity)
+	{
+		return ResponseEntity.ok(userService.viewAllUserCity(userCity));
+	}
 }
 //http://localhost:9091/user/save
 // http://localhost:9091/user/delete/{userId}
 //http://localhost:9091/user/viewUser/{userId}
 //http://localhost:9091/user/update/{userId}
-//http://localhost:9091/user//viewAlluser
+//http://localhost:9091/user/viewAlluser
+//http://localhost:9091/user/viewAllUserCity/{city}
