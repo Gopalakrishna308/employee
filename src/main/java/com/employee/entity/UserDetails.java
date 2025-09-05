@@ -15,5 +15,5 @@ public class UserDetails {
 	private String userName;
 	private String userEmail;
 	private long userNumber;
-
+    private String userCity;
 }

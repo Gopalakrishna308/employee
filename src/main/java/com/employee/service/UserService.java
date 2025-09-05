@@ -39,5 +39,9 @@ public class UserService {
 	public List<UserDetails> viewAlluser() {
 		return userRepository.findAll();
 	}
+	public List< UserDetails> viewAllUserCity(String userCity)
+	{
+		return userRepository.findAllUserInCity(userCity);
+	}
 
 }
