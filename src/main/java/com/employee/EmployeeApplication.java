@@ -13,8 +13,6 @@ public class EmployeeApplication {
 		SpringApplication.run(EmployeeApplication.class, args);
 		
 		System.out.println("Employee Application Started..");
-
-        System.out.println("Employee Application Started.. dev");
 		
 	}
 	
