@@ -19,6 +19,7 @@ import com.employee.service.UserService;
 
 @RestController
 @RequestMapping("/user")
+
 public class UserController {
 
 	@Autowired
